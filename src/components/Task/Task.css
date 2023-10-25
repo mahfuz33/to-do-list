@@ -1,0 +1,36 @@
+.task {
+    width: 100%;
+    background: #262626;
+    border: 1px solid #333333;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.task p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #F2F2F2;
+    margin-right: auto;
+}
+
+p.textCompleted {
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.checkContainer  {
+    border-radius: 50%;
+    padding: 6px;
+    background: #262626;
+    border:2.7px solid #5E60CE;
+  }
+  
+  .deleteButton {
+    background: none;
+    border: none;
+    color: #808080;
+  }
